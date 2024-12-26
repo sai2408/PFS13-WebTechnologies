@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend><h2>Registration Page</h2></legend>
+        <form action="sample1.html" method="post">
+            <label for="fname">First Name: </label>
+            <br><br>
+            <input id="fname" type="text" autofocus placeholder="Enter first Name" name="fname">
+            <br>
+            <label for="lname">Last Name: </label>
+            <br><br>
+            <input id="lname" type="text" value="NA" disabled>
+            <br>
+            <label for="pwd">Password: </label>
+            <br><br>
+            <input id="pwd" type="password" required size="50px">
+            <br>
+            <label for="email">Email: </label>
+            <br><br>
+            <input id="email" type="email" required>
+            <br>
+            <label for="gender">Gender: </label>
+            <br><br>
+            <input id="gender" type="radio" name="gender" value="gender">Male
+            <input id="gender" type="radio" name="gender" value="gender">Femail
+            <br>
+            <label for="hobbies">Hobbies </label>
+            <br><br>
+            <input id="hobbies" type="checkbox" value="Playing">Playing
+            <input id="hobbies" type="checkbox" value="Sleeping">Sleeping
+            <br>
+            <br>
+            <textarea cols="70" rows="10">
+                Write some Notes
+            </textarea>
+            <br>
+            <br>
+            <select>
+                <option value="a1">Apple 1</option>
+                <option value="a2">Apple 2</option>
+                <option value="a3">Apple 3</option>
+                <option value="a4">Apple 4</option>
+            </select>
+            <br>
+            <br>
+            <input type="text" list="languagesknown" name="lk">
+            <datalist id="languagesknown">
+                <option>Apple 1</option>
+                <option>Apple 2</option>
+                <option>Banana 1</option>
+                <option>Banana 2</option>
+            </datalist>
+            <br>
+            <br>
+            <input type="reset" value="Reset values">
+            <input type="submit" values="Submit Details">
+        </form>
+    </fieldset>
+    </body>
+</html>
