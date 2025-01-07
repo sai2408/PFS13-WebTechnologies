@@ -1,0 +1,13 @@
+selector{
+            declaration1;
+            declaration2;
+            .
+            .
+            .
+        }
+Note: declaration = property : value;
+
+CSS Implementation
+1. Inline
+2. Internal
+3. External
