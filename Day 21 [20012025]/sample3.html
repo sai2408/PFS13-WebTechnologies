@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            @media (min-width:10px) and (max-width:576px){
+                .a{
+                position : absolute;
+                bottom:0%;
+                width : 100%;
+                background-color: aqua;
+                height : 50px;
+                display : grid;
+                grid-template-columns: auto auto auto auto;
+            }
+            .a div{
+                padding-top : 15px;
+                text-align: center;
+            }
+            }
+            @media (min-width:576px) and (max-width:768px){
+                .a{
+                background-color: rgb(201, 133, 186);
+                height : 50px;
+                display : grid;
+                grid-template-columns: auto auto auto auto;
+            }
+            .a div{
+                padding-top : 15px;
+                text-align: center;
+            }
+            .x1,.x2,.x3{
+                display:none;
+            }
+            }
+            @media (min-width:768px) and (max-width:992px){
+                .a{
+                background-color: aqua;
+                height : 50px;
+                display : grid;
+                grid-template-columns: auto auto auto auto auto;
+            }
+            .a div{
+                padding-top : 15px;
+                text-align: center;
+            }
+            .x1,.x2{
+                display : none;
+            }
+            }
+            @media (min-width:992px) and (max-width:1200px){
+                .a{
+                background-color: aqua;
+                height : 50px;
+                display : grid;
+                grid-template-columns: auto auto auto auto auto auto;
+            }
+            .a div{
+                padding-top : 15px;
+                text-align: center;
+            }
+            .x1{
+                display : none;
+            }
+            }
+            @media (min-width:1200px){
+            .a{
+                background-color: aqua;
+                height : 50px;
+                display : grid;
+                grid-template-columns: auto auto auto auto auto auto auto;
+            }
+            .a div{
+                padding-top : 15px;
+                text-align: center;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div>Home</div>
+            <div>Produts</div>
+            <div>About Us</div>
+            <div>contact us</div>
+            <div class="x3">Add to Cart</div>
+            <div class="x2">Signup</div>
+            <div class="x1">Login</div>
+        </div>
+    </body>
+</html>
