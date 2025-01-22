@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            div{
+                height : 200px;
+                width : 200px;
+                background-color: black;
+                position: absolute;
+                animation-name: example1;
+                animation-duration: 5s;
+                animation-delay : 2s;
+                animation-iteration-count:2;
+                animation-direction:alternate;
+                animation-timing-function: ease-in;
+                animation-fill-mode:both;
+
+            }
+            @keyframes example1{
+                from{
+                    left:0px;
+                    background-color: blue;
+                }
+                to{
+                    left : 500px;
+                    background-color: blueviolet;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
