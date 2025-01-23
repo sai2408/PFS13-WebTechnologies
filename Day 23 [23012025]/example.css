@@ -1,0 +1,234 @@
+@media (max-width:576px){
+    .head{
+        background-color: cornflowerblue;
+        height : 50px;
+        display : grid;
+        grid-template-columns: auto auto auto auto ;
+        align-content: center;
+        justify-content: space-around;
+        border-radius: 10px;
+        position: fixed;
+        bottom : 10px;
+        width : 95%;
+    }
+
+    .a2 button{
+        border:solid;
+        border-color: red;
+        background-color: black;
+        color:white;
+        padding:5px;
+        height :40px;
+        width : 100px;
+        border-radius: 10px;
+    }
+    .a1{
+        display : none;
+    }
+    .a1 button:hover{
+        background-color: white;
+        color: black;
+    }
+    .a2 button:hover{
+        background-color: white;
+        color:black
+    }
+    .main{
+        margin-top:20px;
+        background-color: darkgray;
+        border-radius: 10px;
+        padding:20px;
+        display:grid;
+        grid-template-columns: auto auto ;
+        justify-content: space-around;
+    }
+    .item{
+        height : 320px;
+        width : 200px;
+        background-color: darkcyan;
+        border-radius: 10px;
+        margin : 10px;
+    }
+    .image{
+        height : 180px;
+        margin:10px;
+        border-radius: 10px;
+    }
+    
+    .details{
+    
+        height : 80px;
+        margin : 10px;
+        padding-top:10px;
+    }
+    .abc{
+        border-radius: 10px;
+        background-color: black;
+        color:white;
+        padding:5px;
+        align-content: center;
+        position: relative;
+        left : 60px;
+        bottom : 15px;
+    }
+    .b1{
+        font-weight: bold;
+        text-align: center;
+    }
+    .b2{
+        font-weight: bold;
+        text-align: center;
+    }
+    .details .b1::before{
+        content : "Name:  "
+    }
+    .details .b2::before{
+        content:"Price: "
+    }
+    img{
+        height : 100%;
+        width : 100%;
+        margin-top : 10px;
+        border-radius: 10px;
+    }
+    .float-logo{
+        height : 50px;
+        width : 50px;
+        position: fixed;
+        top : 10px;
+        left : 10px;
+        animation-name : example;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width : 100px;
+        }
+    }
+}
+@media (min-width:1200px){
+    .head{
+        background-color: cornflowerblue;
+        height : 50px;
+        display : grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        align-content: center;
+        justify-content: space-around;
+        border-radius: 10px;
+    }
+    .a2 button{
+        border:solid;
+        border-color: red;
+        background-color: black;
+        color:white;
+        padding:5px;
+        height :40px;
+        width : 100px;
+        border-radius: 10px;
+    }
+    .a1 button{
+        border:solid;
+        border-color: red;
+        background-color: black;
+        color:white;
+        height : 40px;
+        width  :100px;
+        border-radius: 10px;
+    }
+    .a1 button:hover{
+        background-color: white;
+        color: black;
+    }
+    .a2 button:hover{
+        background-color: white;
+        color:black
+    }
+    .main{
+        margin-top:20px;
+        background-color: darkgray;
+        border-radius: 10px;
+        padding:20px;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-around;
+    }
+    .item{
+        height : 320px;
+        width : 200px;
+        background-color: darkcyan;
+        border-radius: 10px;
+        margin : 10px;
+    }
+    .image{
+        height : 180px;
+        margin:10px;
+        border-radius: 10px;
+    }
+    
+    .details{
+    
+        height : 80px;
+        margin : 10px;
+        padding-top:10px;
+    }
+    .abc{
+        border-radius: 10px;
+        background-color: black;
+        color:white;
+        padding:5px;
+        align-content: center;
+        position: relative;
+        left : 60px;
+        bottom : 15px;
+    }
+    .b1{
+        font-weight: bold;
+        text-align: center;
+    }
+    .b2{
+        font-weight: bold;
+        text-align: center;
+    }
+    .details .b1::before{
+        content : "Name:  "
+    }
+    .details .b2::before{
+        content:"Price: "
+    }
+    img{
+        height : 100%;
+        width : 100%;
+        margin-top : 10px;
+        border-radius: 10px;
+    }
+    .float-logo{
+        height : 50px;
+        width : 50px;
+        position: absolute;
+        bottom : 10px;
+        right : 10px;
+        animation-name : example;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width : 100px;
+        }
+    }
+}
