@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 id="a"></h1>
+        <script>
+            (function(){
+                var x = prompt("Enter Your name");
+                var y = confirm("Are you 18 + ");
+                validateage(y);
+            })();
+            function validateage(age){
+                if (age==true){
+                    document.getElementById("a").innerHTML = "Yes, You can Vote";
+                }
+                else{
+                    document.getElementById("a").innerHTML = "You can not Vote";
+                }
+            }
+        </script>
+    </body>
+</html>
