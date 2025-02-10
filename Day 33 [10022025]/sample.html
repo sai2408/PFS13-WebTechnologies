@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>RegExp</title>
+    </head>
+    <body>
+        <h1 id="name">
+        </h1>
+        <h1 id="dob">
+        </h1>
+        <h1 id="mobile">
+        </h1>
+        <script>
+            var p1 = /\D/gi;
+            var p2 = /\d{2}-\d{2}-\d{4}/gi;
+            var p3 = /\d{3}-\d{3}-\d{4}/gi;
+            //Name
+            var name = prompt("Enter Your name: ");
+            if (p1.test(name)){
+                document.getElementById("name").innerHTML = name;
+            }
+            else{
+                document.getElementById("name").innerHTML ="unknown";
+            }
+            var dob = prompt("Enter your DOB: ");
+            if (p2.test(dob)){
+                document.getElementById("dob").innerHTML = dob;
+            }
+            var mobile = prompt("Enter your Mobile Number:")
+            if (p3.test(mobile)){
+                document.getElementById("mobile").innerHTML = mobile;
+            }
+        </script>
+    </body>
+</html>
