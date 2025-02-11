@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <form name="sample">
+            <input type="text" name="username" placeholder="User name">
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            <br>
+            <br>
+            <button onclick="getvalues(); return false;">Login</button>
+        </form>
+        <script>
+            function getvalues(){
+                var username = document.forms["sample"]["username"].value;
+                var password = document.forms["sample"]["password"].value;
+                console.log(username);
+                console.log(password);
+            }
+        </script>
+    </body>
+</html>

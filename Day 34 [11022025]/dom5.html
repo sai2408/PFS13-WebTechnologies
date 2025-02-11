@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <form id="abc">
+            <input type="text" name="username">
+            <br>
+            <input type="text" name="password">
+            <br>
+            <br>
+            <button onclick = "data(); return false;">Submit</button>
+
+        </form>
+        <script>
+            function data(){
+                var res = document.getElementById("abc");
+                var res1 = new FormData(res);
+                console.log(res1);
+                for(var x of res1.entries()){
+                    console.log(x[0] + " : " + x[1]);
+                }
+            }
+        </script>
+    </body>
+</html>
