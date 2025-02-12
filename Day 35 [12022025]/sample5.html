@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <div id="abc">
+            Normal content
+        </div>
+        <button onclick="getvalue()">Get Data</button>
+    </body>
+    <script>
+        function getvalue(){
+            var x = "Hello World";
+            document.getElementById("abc").innerHTML = `<h4>${x}</h4>`;
+        }
+    </script>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1 id="abc">Hello Codegnan</h1>
+        <button onclick="clickme()">Click to red</button>
+        <button onclick="clickme1()">Click to blue</button>
+        <button onclick="clickme2()">Click to background</button>
+        <button onclick="clickme3()">Click to disappear</button>
+    </body>
+    <script>
+        function clickme(){
+            document.getElementById("abc").style.color = "red";
+        }
+        function clickme1(){
+            document.getElementById("abc").style.color = "blue";
+        }
+        function clickme2(){
+            document.getElementById("abc").style.backgroundColor = "orange";
+        }
+        function clickme3(){
+            document.getElementById("abc").style.display = "none";
+        }
+    </script>
+</html>
