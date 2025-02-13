@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+            fetch("https://reqres.in/api/users",{
+                method : "POST",
+                header : {
+                    "content-type" : "application/json"
+                },
+                body : JSON.stringify({
+                    name : "iamsai2408",
+                    password : "sai1234"
+                })
+            })
+            .then((result)=>{
+                return result.json();
+            })
+            .then((data)=>{
+                console.log(data);
+            })
+        </script>
+    </body>
+</html>
